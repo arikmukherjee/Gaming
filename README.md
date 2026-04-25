@@ -6,3 +6,19 @@
   - a-z
 - Digits :
   - 0-9
+- Shapes :
+  - Heart
+  - Hexagon
+  - Octagon
+  - Pentagon
+  - Rhombus
+  - Cube
+  - Circle
+  - Kite
+  - Oval
+  - Parallelogram
+  - Rectangle
+  - Semicircle
+  - Square
+  - Trapezium
+  - Triangle
