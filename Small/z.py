@@ -1,31 +1,15 @@
-import turtle
-
-
-def draw_small_z():
-    screen = turtle.Screen()
-    screen.title("Small z with Turtle")
-
-    pen = turtle.Turtle()
-    pen.speed(4)
-    pen.pensize(3)
-
-    # Start at top-left.
-    pen.penup()
-    pen.goto(-40, 50)
-    pen.pendown()
-
-    # Top horizontal stroke.
-    pen.goto(40, 50)
-
-    # Diagonal down-left stroke.
-    pen.goto(-40, -20)
-
-    # Bottom horizontal stroke.
-    pen.goto(40, -20)
-
-    pen.hideturtle()
-    screen.mainloop()
-
-
-if __name__ == "__main__":
-    draw_small_z()
+import turtle 
+t = turtle.Turtle()
+t.speed(3)
+t.pensize(6)
+t.penup()
+t.goto(50, 0)
+t.setheading(90)  
+t.pendown()
+t.left(90)
+t.forward(40)
+t.right(120)
+t.forward(70)
+t.left(120)
+t.forward(40)
+turtle.done()

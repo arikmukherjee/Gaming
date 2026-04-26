@@ -1,9 +1,7 @@
 import turtle
 t = turtle.Turtle()
 t.speed(3)
-
 t.pensize(6)
-
 t.penup()
 t.goto(-300, 0)
 t.setheading(90)  

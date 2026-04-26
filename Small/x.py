@@ -1,29 +1,18 @@
 import turtle
-
-
-def draw_small_x():
-    screen = turtle.Screen()
-    screen.title("Small x with Turtle")
-
-    pen = turtle.Turtle()
-    pen.speed(4)
-    pen.pensize(3)
-
-    # First diagonal stroke.
-    pen.penup()
-    pen.goto(-40, 50)
-    pen.pendown()
-    pen.goto(40, -20)
-
-    # Second diagonal stroke.
-    pen.penup()
-    pen.goto(40, 50)
-    pen.pendown()
-    pen.goto(-40, -20)
-
-    pen.hideturtle()
-    screen.mainloop()
-
-
-if __name__ == "__main__":
-    draw_small_x()
+t = turtle.Turtle()
+t.speed(3)
+t.pensize(6)
+t.penup()
+t.goto(-50, 50)
+t.setheading(270)
+t.pendown()
+t.left(25)
+t.forward(60)
+t.backward(30)
+t.left(130)
+t.penup()
+t.forward(30)
+t.right(180)
+t.pendown()
+t.forward(60)
+turtle.done()

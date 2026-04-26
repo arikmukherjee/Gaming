@@ -1,19 +1,14 @@
 import turtle
-
 t = turtle.Turtle()
 t.speed(1)
-
 t.pensize(6)
-
 t.penup()
 t.goto(-100, 0)
 t.setheading(90)
 t.pendown()
-
 t.forward(70)
 t.backward(70)
 t.forward(60)
 t.right(60)
 t.circle(-30, 60)
-
 turtle.done()

@@ -1,32 +1,17 @@
 import turtle
-
-
-def draw_small_u():
-    screen = turtle.Screen()
-    screen.title("Small u with Turtle")
-
-    pen = turtle.Turtle()
-    pen.speed(4)
-    pen.pensize(3)
-
-    # Start near the top-left of the letter.
-    pen.penup()
-    pen.goto(-40, 50)
-    pen.pendown()
-
-    # Left vertical stroke down.
-    pen.setheading(-90)
-    pen.forward(60)
-
-    # Bottom curve.
-    pen.circle(20, 180)
-
-    # Right vertical stroke up.
-    pen.forward(60)
-
-    pen.hideturtle()
-    screen.mainloop()
-
-
-if __name__ == "__main__":
-    draw_small_u()
+t = turtle.Turtle()
+t.speed(3)
+t.pensize(6)
+t.penup()
+t.goto(-50, 50)
+t.setheading(270)
+t.pendown()
+t.forward(30)
+t.circle(18,180)
+t.forward(30)
+t.right(180)
+t.forward(40)
+t.circle(10,70)
+t.penup()
+t.forward(50)
+turtle.done()

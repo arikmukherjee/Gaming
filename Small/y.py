@@ -1,32 +1,18 @@
 import turtle
-
-
-def draw_small_y():
-    screen = turtle.Screen()
-    screen.title("Small y with Turtle")
-
-    pen = turtle.Turtle()
-    pen.speed(4)
-    pen.pensize(3)
-
-    # Left branch down to the center.
-    pen.penup()
-    pen.goto(-40, 50)
-    pen.pendown()
-    pen.goto(0, 10)
-
-    # Right branch to the center.
-    pen.penup()
-    pen.goto(40, 50)
-    pen.pendown()
-    pen.goto(0, 10)
-
-    # Descender stroke.
-    pen.goto(0, -50)
-
-    pen.hideturtle()
-    screen.mainloop()
-
-
-if __name__ == "__main__":
-    draw_small_y()
+t = turtle.Turtle()
+t.speed(3)
+t.pensize(6)
+t.penup()
+t.goto(-50, 50)
+t.setheading(270)
+t.pendown()
+t.left(25)
+t.forward(40)
+t.left(130)
+t.forward(40)
+t.right(180)
+t.forward(60)
+t.circle(-10,90)
+t.penup()
+t.forward(250)
+turtle.done()
